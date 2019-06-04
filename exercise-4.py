@@ -21,4 +21,8 @@ if l_triA == l_triB and l_triB == l_triC:
     print(f'A triangle with sides of the same length like {l_triA}, {l_triB}, and {l_triC} is an equilateral triangle')
 elif l_triA != l_triB and l_triA != l_triC and l_triB == l_triC:
     print(f'A triangle with 2 sides of the 3 that are the same like {l_triA}, {l_triB}, and {l_triC} is scalene triangle')
+elif l_triA == l_triB and l_triA != l_triC and l_triB != l_triC:
+    print(f'A triangle with 2 sides of the 3 that are the same like {l_triA}, {l_triB}, and {l_triC} is scalene triangle')
+elif l_triA != l_triB and l_triA == l_triC and l_triB != l_triC:
+    print(f'A triangle with 2 sides of the 3 that are the same like {l_triA}, {l_triB}, and {l_triC} is scalene triangle')
 else: print(f'A triangle with no sides that are equal like {l_triA}, {l_triB}, and {l_triC} is an isosceles triangle')
